@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>boxmodel</title>
+</head>
+	<style>
+		#esercitazioneIdBody{
+			background-color:cadetblue;
+			border:4px;
+			border-color:green;
+			border-style:dotted;
+			
+		}
+		.classparagrafo{
+			color:orangered;
+			text-align:center;
+			background-color:yellow;
+			width:400px;
+			height:200px;
+			border-color:black;
+			border-width:4px;
+			border-style:solid;
+			border-radius:10px;
+			/*padding-left:20px;
+			padding-right:20px;
+			padding-bottom:20px;
+			padding-top:20px; */
+			padding:20px;/*spazio tra il testo ed il bordo*/
+			box-sizing:border-box; /* è relativo al bordo del box, di predefinito è relativa al testo */
+			margin-left:10px;/*margin è relativo allo spazio tra il bordo e l'esterno*/
+			margin-right:60px;
+			margin-bottom:100px;
+			margin-top:40px;
+			background-image:url("what-are-sea-fleas.jpg");/*per aggiungere un img*/
+			background-repeat: no-repeat;/*per non ripeterla*/
+			background-position: center;
+		}
+		
+		
+	</style>
+<body id="esercitazioneIdBody">
+	<p class="classparagrafo">
+	    questo è un paragrafo
+		questo è un paragrafo
+		questo è un paragrafo
+		questo è un paragrafo
+	</p>
+	<p class="classparagrafo">
+	    questo è un paragrafo
+		questo è un paragrafo
+		questo è un paragrafo
+		questo è un paragrafo
+	</p>
+</body>
+</html>
